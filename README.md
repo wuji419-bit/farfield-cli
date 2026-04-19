@@ -4,6 +4,8 @@ Simple local CLI bridge for controlling Codex App through a [Farfield](https://g
 
 Huge thanks to [Drew Cotten](https://github.com/drewcotten) for open-sourcing Farfield. This project is designed to interoperate with Farfield, and it is open-sourced under the same MIT license family.
 
+Simplified Chinese README: [README.zh-CN.md](README.zh-CN.md)
+
 ## Why this exists
 
 The goal is simple:
@@ -72,7 +74,7 @@ farfield-cli list-models
 farfield-cli status
 farfield-cli list-threads --limit 20
 farfield-cli get-thread-state --thread-id thread_123 --include-stream-events
-farfield-cli send-message --thread-id thread_123 --text "继续做这个"
+farfield-cli send-message --thread-id thread_123 --text "Continue this task"
 farfield-cli interrupt --thread-id thread_123
 ```
 
@@ -86,7 +88,7 @@ farfield-cli set-collaboration-mode \
 farfield-cli submit-user-input \
   --thread-id thread_123 \
   --request-id 7 \
-  --json '{"kind":"text","text":"继续"}'
+  --json '{"kind":"text","text":"Continue"}'
 ```
 
 ## Configuration
